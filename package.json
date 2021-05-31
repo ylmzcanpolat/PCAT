@@ -4,7 +4,8 @@
   "description": "PCAT Photo App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ylmzcanpolat/PCAT/issues"
   },
-  "homepage": "https://github.com/ylmzcanpolat/PCAT#readme"
+  "homepage": "https://github.com/ylmzcanpolat/PCAT#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
